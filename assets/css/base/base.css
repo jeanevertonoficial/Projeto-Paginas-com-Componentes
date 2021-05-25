@@ -4,7 +4,7 @@
 body {
     font-family:  var(--familia-corpo);
     font-size: var(--tamanho-corpo);
-    
+    color: var(--cinza);
     background: url(../../img/fundo-text.png), url(../../img/fundo-linha.png);
     background-position: center;
 }
@@ -12,4 +12,32 @@ body {
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+.titulo{
+    font-size: var(--tamanho-titulo);
+}
+
+.titulo--destaque {
+    font-family: var(--famalia-titulo-destaque);
+    color: var(--preto);
+    font-size: var(--tamanho-titulo-destaque);
+    font-weight: var(--peso-titulo-destaque);
+
+    display: block;
+
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+}
+
+.alinhamento-esquerda {
+    text-align: left;
+}
+
+.alinhamento-meio {
+    text-align: center;
+}
+
+.texto {
+    line-height: 26px; /*altura de uma linha para outra */
 }
