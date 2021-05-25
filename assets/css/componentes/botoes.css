@@ -10,12 +10,13 @@
     border: none;
 }
 
+/*estilizando o botao com fundo transparente */
 .botao--alternativo{
     color: var(--amarelo); 
-    
+
     background-color: unset; /*cor de funco do botao transparente*/
 
-    border: none;
+    box-shadow: none;
 
     border: 1px solid var(--amarelo);
 
