@@ -23,9 +23,9 @@ body {
     color: var(--preto);
     font-size: var(--tamanho-titulo-destaque);
     font-weight: var(--peso-titulo-destaque);
-
+    
     display: block;
-
+    
     margin-top: .75rem;
     margin-bottom: .75rem;
 }
