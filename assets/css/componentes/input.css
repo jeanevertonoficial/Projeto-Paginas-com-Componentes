@@ -16,7 +16,20 @@
 
     border: none; 
 
-    background: var(--branco);
+    background-color: var(--branco);
 
     box-shadow: 10px 10px 30px #0000000f;
+}
+
+/*configuração para padronizar os icones dentro de input */
+
+.input--icone {
+    padding-left: 4.25rem;
+
+    background-repeat: no-repeat;
+    background-position: left 1.75rem center; 
+}
+
+.input--email {
+    background-image: url(../../img/icones/mail.svg);
 }
