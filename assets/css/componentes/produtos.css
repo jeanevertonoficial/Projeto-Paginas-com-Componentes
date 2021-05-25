@@ -1,0 +1,64 @@
+.produto {
+    margin-bottom: 1rem; 
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 50%; /* dividindo ao meu entre a imagem e os texto */
+
+    position: relative; /*relativa para ficar uma parte do lado da outra*/
+    
+    overflow: hidden; /* para imagem não vazar de dentro do campo*/
+
+    background-color: var(--branco);
+
+    box-shadow: 10px 10px 30px var(--preto-transparente);
+
+    box-sizing: border-box; /* para não passar do 100% da tela */
+
+    min-height: 12.5rem; /* altura do card aonde vai os produtos */
+}
+
+.produto__imagem {
+    position: absolute;
+    top: 50%;
+    left: -8rem;
+
+    transform: translateY(-50%); /* para metade da imagem fique no meio */
+    z-index: 1; /*para ter certeza que a imagem vai ficar atrás do conteudo */
+
+    width: 18.75rem; /* padronizando o tamanho das imagens */
+}
+
+.produto__conteudo {
+    position: relative;
+    z-index: 2;
+}
+
+.produto__titulo {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+.produto__preco {
+    margin-bottom: 1.5rem;
+}
+
+.produto__comprar {
+    color: var(--amarelo);
+
+    display: flex;
+    align-items: center;
+}
+
+.produto__comprar__icone {
+    display: inline-block;
+
+    width: 0.875rem;
+    height: 0.875rem;
+
+    margin-left: 1.75rem;
+
+    background-image: url(../../img/icones/seta.png);
+    background-size: contain; /* para o bg não ultrapassar o tamanho definido */
+
+}
