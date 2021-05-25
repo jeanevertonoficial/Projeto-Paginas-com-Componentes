@@ -1,0 +1,22 @@
+.botao {
+    background: var(--amarelo);
+    text-align: center;
+    font-family: inherit;
+    color: var(--branco);
+    font-weight: 700;
+    width: 100%;
+    padding: 1rem 0; 
+    box-shadow: 10px 10px 30px rgba(255, 203, 71, 0.3);
+    border: none;
+}
+
+.botao--alternativo{
+    color: var(--amarelo); 
+    
+    background-color: unset; /*cor de funco do botao transparente*/
+
+    border: none;
+
+    border: 1px solid var(--amarelo);
+
+}
