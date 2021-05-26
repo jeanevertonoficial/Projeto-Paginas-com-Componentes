@@ -3,9 +3,9 @@
     padding-bottom: 2.5rem;
 
     background-color: var(--branco);
-    background-image: url(../../img/fundo-text.png);
-    background-position: top -11rem right;
-    background-repeat: no-repeat;
+    background-image: url(../../img/rodape-imagem-lateral.svg); /* imagem que vai ficar na lateral do rodape */
+    background-position: top -11rem right; /* configuração de posição */
+    background-repeat: no-repeat; 
 } 
 
 .rodape__logo {
@@ -26,5 +26,5 @@
     width: 1.625rem;
     height: 1.625rem;
 
-    margin-right: 1.625rem;
+    margin-right: 1rem;
 }
