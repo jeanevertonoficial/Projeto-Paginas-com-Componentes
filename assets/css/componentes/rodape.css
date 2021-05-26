@@ -4,7 +4,7 @@
 
     background-color: var(--branco);
     background-image: url(../../img/rodape-imagem-lateral.svg); /* imagem que vai ficar na lateral do rodape */
-    background-position: top -5rem right; /* configuração de posição */
+    background-position: top -11rem right; /* configuração de posição */
     background-repeat: no-repeat; 
 } 
 /*logo no rodape */
