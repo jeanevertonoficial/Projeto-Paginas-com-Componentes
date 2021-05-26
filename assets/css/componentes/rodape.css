@@ -4,27 +4,42 @@
 
     background-color: var(--branco);
     background-image: url(../../img/rodape-imagem-lateral.svg); /* imagem que vai ficar na lateral do rodape */
-    background-position: top -11rem right; /* configuração de posição */
+    background-position: top -5rem right; /* configuração de posição */
     background-repeat: no-repeat; 
 } 
-
+/*logo no rodape */
 .rodape__logo {
     max-width: 11.125rem;
 
     margin-bottom: 1.25rem;
 }
-
+/*midia sociais no rodape */
 .rodape__social {
-    display:  flex;
+    display:  flex;  /* display para deixar um icone do lado do outro */
 
-    margin-bottom: 2rem;
+    margin-bottom: 2rem; 
 }
 
 .rodape__social-midia {
-    display: inline-block;
+    display: inline-block; /* faz com que os icones flutuem */
 
-    width: 1.625rem;
-    height: 1.625rem;
+    width: 1.625rem; /* largura do icone */
+    height: 1.625rem; /* altura do icone */
 
-    margin-right: 1rem;
+    padding-right: 1.625rem; /* margem para esquerda de um icone para o outro */
+
+}
+
+.rodape__unidade {
+    margin-bottom: 2rem;
+}
+
+.rodape__unidade-titulo {
+    color: var(--preto);
+    font-size: var(--tamanho-destaque);
+    font-weight: var(--peso-destaque);
+
+    display: block;
+
+    margin-bottom: .5rem; 
 }
