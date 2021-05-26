@@ -10,6 +10,8 @@
     padding-top: 1.75rem;
     padding-bottom: 1.75rem;
 
+    margin-bottom: 1rem;
+
     box-shadow: 10px 10px 30px var(--amarelo-transparente);
     
     border: none;
@@ -25,4 +27,12 @@
 
     border: 1px solid var(--amarelo);
 
+}
+
+/* configuração do botão para a segunda pagina */
+
+.botao__descricao {
+    margin-top: -10rem;
+
+    z-index: 1;
 }

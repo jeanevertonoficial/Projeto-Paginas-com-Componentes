@@ -17,7 +17,16 @@
 
     min-height: 12.5rem; /* altura do card aonde vai os produtos */
 }
+.produto__descricao__imagem {
+    margin-top: -25%; 
 
+    transform: none;
+
+}
+
+.produto__ler{
+    background-color: var(--amarelo);
+}
 .produto__imagem {
     position: absolute;
     top: 50%;

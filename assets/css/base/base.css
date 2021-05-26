@@ -42,3 +42,11 @@ body {
 .texto {
     line-height: 26px; /*altura de uma linha para outra */
 }
+
+
+/* configuração para a segunda aba do site */
+
+
+.titulo--destaque--descricao {
+   margin-top: 0;
+}
