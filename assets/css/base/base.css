@@ -9,8 +9,9 @@ body {
     background-position: center;
 }
 
+/* Alinhamento do container */
 .container {
-    padding-left: 1rem;
+    padding-left: 1rem;   
     padding-right: 1rem;
 }
 
@@ -29,7 +30,7 @@ body {
     margin-top: .75rem;
     margin-bottom: .75rem;
 }
-
+/* configuração de alinhamento padrão das imagens dentro do input */
 .alinhamento-esquerda {
     text-align: left;
 }
